@@ -1,0 +1,166 @@
+*{
+    text-align: center;
+}
+
+:root {
+    --back-color: lightslategrey;
+}
+
+body {
+    margin: 0;
+}
+
+.hamburgerMenu {
+    grid-row: 1/2;
+    margin-right: 5px;
+}
+
+#menu::before {
+    content: "≡";
+    text-decoration: none;
+    font-size: 45PX;
+    font-weight: 800;
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+.navigation li {
+    display: none;
+}
+
+
+.show li {
+    display: block;
+}
+
+header ul {
+    list-style: none;
+    line-height: 30px;
+    font-size: larger;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: grid;
+    align-items: center;
+    background-color:var(--back-color);
+}
+
+#menu {
+    text-decoration: none;
+    color: black;
+}
+
+header span {
+    font-size: 30px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin-left: -35px;
+}
+
+header img {
+    width: 70%;
+    height: auto;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin-left: 10%;
+    margin-top: 7px;
+}
+
+header nav {
+    grid-row: 2/3;
+    grid-column: 1/4;
+}
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.active::before {
+    content: "🎈";
+}
+
+h2 {
+    background-color: var(--back-color);
+    padding: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+img {
+    width: 70%;
+    height: auto;
+}
+
+main {
+    display: grid;
+    justify-items: center;
+}
+
+section {
+    width: 85%;
+}
+
+section nav a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 2px;
+    width: 70%;
+}
+
+section nav {
+    display: flex;
+    border-bottom: double;
+    padding: 5px;
+}
+
+.classes section {
+    display: grid;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: var(--back-color);
+    color: black;
+    padding: 45px;
+    align-content: center;
+}
+
+footer img {
+    width: 20%;
+    height: auto;
+    margin-left: 15px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+h2,
+h1,
+h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
