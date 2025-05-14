@@ -1,0 +1,25 @@
+{
+    "family": {
+        "family name": "Smith",
+        "moved in": "5/14/2025",
+        "family memebers": 3,
+        "bishopric vist": "no"
+    },
+    "individual members": [
+        {
+            "name": "Dave",
+            "gender": "Male",
+            "birthdate": "2/8/1982"
+        },
+        {
+            "name": "Emily",
+            "gender": "Female",
+            "birthdate": "6/14/1984"
+        },
+        {
+            "name": "Mark",
+            "gender": "Male",
+            "birthdate": "9/3/2008"
+        }
+    ]
+}
