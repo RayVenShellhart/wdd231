@@ -22,23 +22,25 @@ body {
     font-weight: 800;
 }
 
-#menu.show::before {
+#menu.open::before {
     content: "X";
 }
 
 .navigation li {
-    display: none;
+    list-style-type: none;
 }
 
 
-.show li {
-    display: block;
+nav {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
 }
 
-header ul {
-    list-style: none;
-    line-height: 30px;
-    font-size: larger;
+nav ul {overflow: hidden;}
+
+nav.open {
+    grid-template-rows: 1fr;
 }
 
 header {

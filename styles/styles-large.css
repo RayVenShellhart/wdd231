@@ -10,6 +10,7 @@
         }
     
         header nav {
+            display: block;
             justify-content: space-between;
             background-color: black;
             width: 100%;

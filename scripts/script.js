@@ -20,12 +20,12 @@ lastModified.innerHTML = `<p id="lastModified">Last Modified: ${new Intl.DateTim
 }).format(nLastModif)}</p>`;
 
 // Hamburger
-const mainnav = document.querySelector('.navigation')
+const mainnav = document.querySelector('#animate-me')
 const hambutton = document.querySelector('#menu');
 
 hambutton.addEventListener('click', () => {
-    mainnav.classList.toggle('show');
-    hambutton.classList.toggle('show');
+    mainnav.classList.toggle('open');
+    hambutton.classList.toggle('open');
 });
 
 // Array
