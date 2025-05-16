@@ -99,8 +99,8 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-        -webkit-appearance: button;
-    }
+    -webkit-appearance: button;
+}
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -123,17 +123,11 @@ fieldset {
 
 legend {
     box-sizing: border-box;
-    /* 1 */
     color: inherit;
-    /* 2 */
     display: table;
-    /* 1 */
     max-width: 100%;
-    /* 1 */
     padding: 0;
-    /* 3 */
     white-space: normal;
-    /* 1 */
 }
 
 progress {

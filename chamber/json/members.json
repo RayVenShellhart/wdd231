@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name": "Ralphs biking Emporioum",
+            "address": "4499 Bike Ave",
+            "phone": "555-444-1111",
+            "url": "https://bike.com/",
+            "imageUrl": "images/bike.webp",
+            "membership": 1
+        },
+        {
+            "name": "Blue Lagoon",
+            "address": "2742 Swim Street",
+            "phone": "312-983-3143",
+            "url": "https://swim.com",
+            "imageUrl": "images/pool.webp",
+            "membership": 3
+        },
+        {
+            "name": "Farmers Market",
+            "address": "2438 Farmer Drive",
+            "phone": "393-864-3490",
+            "url": "https://farmermarket.com",
+            "imageUrl": "images/farmer.webp",
+            "membership": 1
+        },
+        {
+            "name": "Selena's Salon",
+            "address": "9235 Salon Road",
+            "phone": "423-432-5231",
+            "url": "https://www.salon.com",
+            "imageUrl": "images/salon.webp",
+            "membership": 2
+        },
+        {
+            "name": "Food Court",
+            "address": "2042 foodcourt lane",
+            "phone": "132-294-1349",
+            "url": "https://foodcourt.com",
+            "imageUrl": "images/food-court.webp",
+            "membership": 1
+        },
+        {
+            "name": "Mike's Auto Repair Shop",
+            "address": "8435 Car Square",
+            "phone": "832-2463-7365",
+            "url": "http://mikecarshop.org/",
+            "imageUrl": "images/auto-repair.webp",
+            "membership": 3
+        },
+        {
+            "name": "Cool Ice Cream",
+            "address": "2352 Ice Place",
+            "phone": "213-745-2642",
+            "url": "https://coolicecream.com",
+            "imageUrl": "images/ice-cream.webp",
+            "membership": 2
+        }
+    ]
+}

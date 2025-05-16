@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- metas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="RayVen Shellhart">
+    <meta name="description" content="Chamber page for learning week two of WDD 231 | RayVen Shellhart">
+    <!-- metas og -->
+    <meta property="og:title" content="Timbuktu Chamber of Commerce | RayVen Shellhart">
+    <meta property="og:description" content="Timbuktu Chamber of Commerce page for learning week two of WDD 231 | RayVen Shellhart">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://rayvenshellhart.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+    <!-- Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- script -->
+    <script src="scripts/directory.js" defer></script>
+    <title>Timbuktu Chamber of Commerce | RayVen Shellhart</title>
+</head>
+    <body>
+        <header>
+            <img src="images/logo.webp" alt="logo">
+            <div class="title">
+                <span class="header-title">Timbuktu</span>
+                <span class="mini-title">Chamber of Commerce</span>
+            </div>
+            <div class="hamburgerMenu">
+                <a id="menu" aria-label="hamburger" href="#"></a>
+            </div>
+            <nav id="animate-me">
+                <ul class="navigation">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Discover</a></li>
+                    <li><a href="directory.html" class="active">Directory</a></li>
+                    <li><a href="">Join</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <img src="images/Timbuktu.webp" alt="Timbuktu">
+            </div>
+            <h1>Home</h1>
+            <section>
+                <h2>Events</h2>
+            </section>
+            <section>
+                <h2>Current Weather</h2>
+            </section>
+            <section>
+                <h2>Weather Forecast</h2>
+            </section>
+            <div class="compMenu">
+                <button id="grid">▦ Grid</button>
+                <button id="list">▤ List</button>
+            </div>
+            <article class="grid">
+                <div id="cards"></div>
+            </article>
+        </main>
+        <footer>
+            <div class="chamber-footer">
+                <p><strong>Timbuktu Chamber of Commerce</strong></p>
+                <p>10 Rue De La Paix</p>
+                <p>Timbuktu, Mali 999</p>
+                <p>info@timbuktucc.org</p>
+                <p>(233) 555-2300</p>
+            </div>
+            <div class="social">
+                <a href="https://www.youtube.com/"><img src="images/youtube.webp" alt="youtube" loading="lazy" width="200" height="200"></a>
+                <a href="https://x.com/"><img src="images/twitter.webp" alt="twitter" loading="lazy" width="200" height="200"></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedin.webp" alt="linkedin" loading="lazy" width="200" height="200"></a>
+            </div>
+            <div class="info">
+                <p>WDD231 Class Project</p>
+                <p><span id="currentyear"></span> 🐓 RayVen Kenneth Shellhart 🐓 Washington State </p>
+                <p id="lastModified"></p>
+            </div>
+        </footer>
+    </body>
+</html>
