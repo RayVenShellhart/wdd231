@@ -9,7 +9,8 @@
 /* header/footer */
 
 
-header, footer {
+header,
+footer {
     color: black;
     background-color: var(--primary-color);
     padding: 15px;
@@ -43,7 +44,7 @@ header img {
 }
 
 .header-title {
-    font-size:xx-large;
+    font-size: xx-large;
 }
 
 /* nav */
@@ -202,78 +203,43 @@ h1 {
     font-weight: 400;
 }
 
-/* grid and list */
-
-.compMenu {
-    margin: 1rem auto;
-    border: 1px solid rgb(0 0 0 / 0.1);
-    background-color: #333;
-    text-align: center;
-    width: 98%;
-}
-
-.compMenu button {
-    padding: 1rem;
-    font-weight: 700;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 5px;
-    align-items: center;
-}
-
-.grid section {
-    text-align: center;
-}
-
-.list .compInfo {
-    width: 100%;
-}
-
-.list {
+.forecast {
     display: flex;
-    flex-direction: row;
-    margin-top: 15px;
-    width: 100%;
-    margin-left: -5px;
+    flex-direction: column;
+    font-size: larger;
 }
 
-.list section {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    padding: 0.25rem;
+.weather figure {
+    width: 30%;
+    align-content: center;
 }
 
-
-.list section h2 {
-    background: none;
+.weather img {
+    width: 60%;
     height: auto;
-    width: auto;
-    text-align: left;
-    align-self: center;
 }
 
-.list section img {
-    display: none;
-
-}
-
-.list p {
+#spotlight section{
     width: 100%;
-    margin-top: 20px;
+    padding: 0;
+
 }
 
-.list section h2 {
-    font-size: 1rem;
-}
-
-.list * {
-    border-radius: 0;
+#spotlight section h2 {
+    background-color: var(--primary-color);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     margin-top: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
 }
 
-.list section:nth-child(even) {
-    background-color: #bbb;
+.events {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
+
+/* sections */
