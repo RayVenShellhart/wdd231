@@ -111,6 +111,7 @@ const courses = [
 
 const creditArray = [];
 
+const courseDetails = document.querySelector("#course-details");
 const all = document.querySelector("#all");
 const cse = document.querySelector("#cse");
 const wdd = document.querySelector("#wdd");
@@ -132,11 +133,15 @@ wdd.addEventListener("click", () => {
 
 
 function courseCard(filteredCourses) {
+    
     document.querySelector(".classes").innerHTML = "";
     filteredCourses.forEach(course => {
+
+        
+        
         let card = document.createElement("section");
         let name = document.createElement("h3");
-
+        
         if (course.completed == true) {
             card.style.backgroundColor = "tan";
             name.innerHTML = `<span class="label">✓ ${course.subject} ${course.number}</span>`;
@@ -145,19 +150,31 @@ function courseCard(filteredCourses) {
 
             name.innerHTML = `<span class="label">${course.subject} ${course.number}</span>`;
         }
+
+        document.querySelector(".classes").addEventListener('click', () => {
+            displayCourseDetails(course);
+        })
+
+
         
         card.appendChild(name);
 
         
 
         document.querySelector(".classes").appendChild(card);
+        
 
         creditArray.push(course.credits)
+
+
+        
     });
+    
     const sum = creditArray.reduce((accumulator, currentValue) => {
         const num = Number(currentValue);
         return accumulator + (isNaN(num) ? 0 : num);
     }, 0);
+    
     let cardTwo = document.createElement("section");
     let total = document.createElement("h3");
     total.innerHTML = `<span class="label">Credits: ${sum}</span>`;
@@ -166,5 +183,30 @@ function courseCard(filteredCourses) {
     while (creditArray.length > 0) {
         creditArray.pop();
     }
+    
 }
+
+
+
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+        <button id="closeModal">❌</button>
+        <h2>${course.subject} ${course.number}</h2>
+        <h3>${course.title}</h3>
+        <p><strong>Credits</strong>: ${course.credits}</p>
+        <p><strong>Certificate</strong>: ${course.certificate}</p>
+        <p>${course.description}</p>
+        <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+    `;
+    courseDetails.showModal()
+
+    closeModal.addEventListener("click", () => {
+        courseDetails.close();
+    })
+
+    
+
+};
+
 
