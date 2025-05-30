@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="RayVen Shellhart">
-    <meta name="description" content="Chamber page for learning week two of WDD 231 | RayVen Shellhart">
+    <meta name="description" content="Chamber page for learning week four of WDD 231 | RayVen Shellhart">
     <!-- metas og -->
     <meta property="og:title" content="Timbuktu Chamber of Commerce | RayVen Shellhart">
     <meta property="og:description"
-        content="Timbuktu Chamber of Commerce page for learning week two of WDD 231 | RayVen Shellhart">
+        content="Timbuktu Chamber of Commerce Join page for learning week two of WDD 231 | RayVen Shellhart">
     <meta property="og:image"
         content="https://img.freepik.com/free-vector/colorful-bird-illustration-gradient_343694-1741.jpg?ga=GA1.1.373640658.1744226032&semt=ais_hybrid&w=740">
     <meta property="og:url" content="https://rayvenshellhart.github.io/wdd231/chamber/directory.html">
@@ -22,12 +22,11 @@
         href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/index-large.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/join-large.css">
     <link rel="icon" href="favicon.ico">
     <!-- script -->
-    <!-- <script src="scripts/directory.js" defer></script> -->
-    <script src="scripts/index.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
     <title>Timbuktu Chamber of Commerce | RayVen Shellhart</title>
 </head>
 
@@ -43,51 +42,20 @@
         </div>
         <nav id="animate-me">
             <ul class="navigation">
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="images/hero.webp" alt="Timbuktu">
-        </div>
-            <h1>Home</h1>
-            <h2><a href="">Join Now</a></h2>
-        <div class="sections">
-            <section class="events">
-                <h2>Events</h2>
-                <p>Saftey Demonstration: 10:00am</p>
-                <p>Swim class: 12:00pm</p>
-                <p>Firework Show: 9:00pm</p>
-            </section>
-            <section class="weather">
-                <h2>Current Weather</h2>
-                <figure>
-                    <img id="weather-icon" src="#" alt="#">
-                </figure>
-                <div class="weather-info">
-                    <p>Current Temp: <span id="current-temp"></span></p>
-                    <p>High: <span id="high-temp"></span></p>
-                    <p>description: <span id="description"></span></p>
-                    <p>Low: <span id="low-temp"></span></p>
-                    <p>Humidity: <span id="humidity"></span></p>
-                    <p>Sunrise: <span id="rise"></span></p>
-                    <p>Sunset: <span id="set"></span></p>
-                </div>
-            </section>
-            <section class="forecast">
-                <h2>Weather Forecast</h2>
-                <p><span id="future-temp"></span></p>
-                <p><span id="day-after"></span></p>
-                <p><span id="three-days"></span></p>
-            </section>
-            <article class="grid">
-                <div id="spotlight" class="business"></div>
-            </article>
-        </div>
+        <h1>Thank You</h1>
+        <p>Your name is <span id="first"></span> <span id="last"></span></p>
+        <p>Your email is <span id="mail"></span></p>
+        <p>Your mobile number is <span id="phone"></span></p>
+        <p>The business name is <span id="busi-name"></span></p>
+        <p>The time of submission is <span id="time"></span></p>
     </main>
     <footer>
         <div class="chamber-footer">

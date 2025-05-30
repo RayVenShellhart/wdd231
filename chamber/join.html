@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- metas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="RayVen Shellhart">
+    <meta name="description" content="Chamber page for learning week four of WDD 231 | RayVen Shellhart">
+    <!-- metas og -->
+    <meta property="og:title" content="Timbuktu Chamber of Commerce | RayVen Shellhart">
+    <meta property="og:description"
+        content="Timbuktu Chamber of Commerce Join page for learning week two of WDD 231 | RayVen Shellhart">
+    <meta property="og:image"
+        content="https://img.freepik.com/free-vector/colorful-bird-illustration-gradient_343694-1741.jpg?ga=GA1.1.373640658.1744226032&semt=ais_hybrid&w=740">
+    <meta property="og:url" content="https://rayvenshellhart.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+    <!-- Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/join-large.css">
+    <link rel="icon" href="favicon.ico">
+    <!-- script -->
+    <script src="scripts/join.js" defer></script>
+    <title>Timbuktu Chamber of Commerce | RayVen Shellhart</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.webp" alt="logo">
+        <div class="title">
+            <span class="header-title">Timbuktu</span>
+            <span class="mini-title">Chamber of Commerce</span>
+        </div>
+        <div class="hamburgerMenu">
+            <a id="menu" aria-label="hamburger" href="#"></a>
+        </div>
+        <nav id="animate-me">
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Membership Application Form</h2>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <div>Personal Info</div>
+                <label>First Name:<input required name="first-name" id="first-name" type="text" autocomplete="given-name" placeholder="John"></label>
+                <label>Last Name:<input required name="last-name" id="last-name" type="text" autocomplete="family-name" placeholder="Doe"></label>
+                <label>Email: <input required type="email" id="email" name="email" autocomplete="email" placeholder="example@gmail.com"></label>
+                <label>Phone: <input required type="tel" id="tel" autocomplete="tel" name="tel" placeholder="###-###-####"></label>      
+            </fieldset>
+            <fieldset>
+                <div>Membership Level</div>
+                <div  class="radio">
+                    <label><input type="radio" name="membership" id="np">NP</label>
+                    <label><input type="radio" name="membership" id="bronze">Bronze</label>
+                    <label><input type="radio" name="membership" id="silver">Silver</label>
+                    <label><input type="radio" name="membership" id="gold">Gold</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>Organization</div>
+                <label>Organization Name:<input type="text" required id="organization-name" placeholder="Dave's Bike Repair" name="organization-name" autocomplete="organization"></label>
+                <label>Applicants Title:<input type="text" id="organization-title" placeholder="Director" name="organization-title" autocomplete="organization-title" pattern="[A-z0-9 \-]{7,}"></label>
+                <label class="organization-desc"><span>Description of Organization: </span><textarea name="description" id="description" placeholder="Type here"></textarea></label>
+                <input type="hidden" name="timestamp" id="timestamp" value="">
+                <input type="submit" value="Join Now" onclick="getData()">
+            </fieldset>
+            
+        </form>
+        <div class="card-head">
+            <h2>Membership Level</h2>
+            <h3>Click on card to learn more</h3>
+        </div>
+        <div class="cards">
+            <section class="np-card" id="np-card"></section>
+            <dialog id="np-details"></dialog>
+            <section class="bronze-card" id="bronze-card"></section>
+            <dialog id="bronze-details"></dialog>
+            <section class="silver-card" id="silver-card"></section>
+            <dialog id="silver-details"></dialog>
+            <section class="gold-card" id="gold-card"></section>
+            <dialog id="gold-details"></dialog>
+        </div>
+    </main>
+    <footer>
+        <div class="chamber-footer">
+            <p><strong>Timbuktu Chamber of Commerce</strong></p>
+            <p>10 Rue De La Paix</p>
+            <p>Timbuktu, Mali 999</p>
+            <p>info@timbuktucc.org</p>
+            <p>(233) 555-2300</p>
+        </div>
+        <div class="social">
+            <a href="https://www.youtube.com/"><img src="images/youtube.webp" alt="youtube" loading="lazy" width="200"
+                    height="200"></a>
+            <a href="https://x.com/"><img src="images/twitter.webp" alt="twitter" loading="lazy" width="200"
+                    height="200"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedin.webp" alt="linkedin" loading="lazy"
+                    width="200" height="200"></a>
+        </div>
+        <div class="info">
+            <p>WDD231 Class Project</p>
+            <p><span id="currentyear"></span> 🐓 RayVen Kenneth Shellhart 🐓 Washington State </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
