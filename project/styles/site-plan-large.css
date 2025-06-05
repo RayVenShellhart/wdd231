@@ -1,0 +1,66 @@
+@media screen and (min-width: 1000px) {
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    nav ul {
+        overflow: visible;
+    }
+
+    a:hover {
+        text-decoration: overline;
+    }
+
+    header nav {
+        display: block;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    header span {
+        margin: 0;
+    }
+
+    .title {
+        margin-left: -60%;
+    }
+
+    .header-title {
+        font-size: 50px;
+    }
+
+    .mini-title {
+        margin-left: 5px;
+        font-size: larger;
+    }
+
+    footer a img {
+        width: 50%;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+    }
+
+    #lastModified {
+        margin-top: -15px;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+    }
+
+}
