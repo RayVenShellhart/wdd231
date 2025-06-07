@@ -1,0 +1,201 @@
+:root {
+    --primary-color: #3f88c5;
+    --secondary-color: #c57b57;
+    --background-color: white;
+    --tect-color: black;
+}
+
+
+/* header/footer */
+
+
+header,
+footer {
+    color: black;
+    background-color: var(--primary-color);
+    padding: 15px;
+}
+
+/* header */
+
+header {
+    height: auto;
+    display: grid;
+    align-items: center;
+}
+
+header img {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 40%;
+}
+
+.title {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -40%;
+}
+
+.header-title {
+    font-size: xx-large;
+}
+
+/* nav */
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+.hamburgerMenu {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    margin-right: 5px;
+}
+
+#menu::before {
+    content: "≡";
+    text-decoration: none;
+    font-size: 45PX;
+    font-weight: 800;
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.active {
+    margin-left: -23px;
+}
+
+nav {
+    grid-row: 2/3;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+    line-height: 35px;
+    font-size: larger;
+}
+
+nav ul {
+    overflow: hidden;
+}
+
+nav.open {
+    grid-template-rows: 1fr;
+}
+
+#menu {
+    text-decoration: none;
+    color: black;
+}
+
+.active::before {
+    content: "🎈";
+}
+
+/* main */
+
+main {
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    margin-top: 25px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.social a {
+    width: 20%;
+}
+
+footer a img {
+    width: 100%;
+    height: auto;
+}
+
+/* text */
+
+p, div {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+h2,
+h1,
+h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+#cards section {
+    margin: 15px;
+    align-items: center;
+    background-color: lightgray;
+    border: 1px solid black;
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "img"
+    "desc"
+    "location"
+    "button";
+}
+
+main {
+    justify-items: center;
+}
+
+#cards {
+    width: 80%;
+}
+
+#cards section h2 {
+    width: 100%;
+    height: auto;
+    grid-area: name;
+}
+
+#cards section * {
+    max-width: 100%;
+}
+
+#cards section img {
+    justify-self: center;
+    grid-area: img;
+}
+
+#cards section div {
+    grid-area: location;
+}
+
+#cards section p {
+    grid-area: desc;
+}
+
+#cards section button {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    justify-self: center;
+    width: 30%;
+    grid-area: button;
+}

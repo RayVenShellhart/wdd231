@@ -1,0 +1,52 @@
+{
+    "olympia": [
+        {
+            "name": "Hands on Children's Museum",
+            "address": "414 Jefferson St NE, Olympia, WA 98501",
+            "description": "Center offering participatory exhibits & programs on art & science for kids.",
+            "imageUrl": "images/museum.webp"
+        },
+        {
+            "name": "Ape Cave",
+            "address": "Washington 98616",
+            "description": "The third longest lava tube in Northern America stretching 2 miles long with an easier lower cave, and the challenging upper cave.",
+            "imageUrl": "images/ape-caves.webp"
+        },
+        {
+            "name": "Squaxin Park",
+            "address": "2600 East Bay Drive Northeast, Olympia, WA 98506",
+            "description": "Squaxin Park is a public park located in Olympia, Washington. Established in 1905, it was the city's first waterfront park, providing access to the Budd Inlet of Puget Sound.",
+            "imageUrl": "images/squaxon.webp"
+        },
+        {
+            "name": "Tolmie State Park",
+            "address": "7730 61st Ave NE, Olympia, WA 98506",
+            "description": "A 105-acre marine park where there is a large beach good for exploring and a artical reef that is popular with divers",
+            "imageUrl": "images/Tolmie.webp"
+        },
+        {
+            "name": "Millersylvania State Park",
+            "address": "12245 Tilley Rd SW, Olympia, WA 98512",
+            "description": "A large lake campground with fishing, boating, and hiking in a old forest",
+            "imageUrl": "images/millersylvania.webp"
+        },
+        {
+            "name": "WET Science Center",
+            "address": "500 Adams St NE, Olympia, WA 98501",
+            "description": "Hands on activities teaching kids about the water cycle & water's vital impact on life on earth.",
+            "imageUrl": "images/wet.webp"
+        },
+        {
+            "name": "Billy Frank Jr. Nisqually National Wildlife Refuge",
+            "address": "100 Brown Farm Rd NE, Olympia, WA 98516",
+            "description": "A freshwater wildlife preserve with amazing views",
+            "imageUrl": "images/billy.webp"
+        },
+        {
+            "name": "Mt. St. Helens",
+            "address": "3029 Spirit Lake Hwy, Castle Rock, WA 98611",
+            "description": "A active volcano with ongoing volcanic activity with an major eruption in the 1980's with many attractions surronding it, and many hikes a great place to go.",
+            "imageUrl": "images/helens.webp"
+        }
+    ]
+}

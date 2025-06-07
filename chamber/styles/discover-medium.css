@@ -1,0 +1,24 @@
+@media screen and (min-width: 641px) {
+    #cards section {
+        display: grid;
+        grid-template-areas:
+            "name name"
+            "img desc"
+            "img location"
+            "button button";
+        text-align: left;
+        }
+
+        h2, div, p, img {
+            margin-left: 15px;
+        }
+
+        #cards section button {
+            width: 60%;
+            grid-area: button;
+        }
+
+        #cards section img:hover{
+            filter:grayscale(100%);
+        }
+}
