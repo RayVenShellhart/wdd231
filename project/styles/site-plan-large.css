@@ -1,32 +1,34 @@
 @media screen and (min-width: 1000px) {
     .navigation {
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-    }
-
-
-    .navigation li {
-        display: block;
-        flex: 1 1 100%;
-    }
-
-    nav ul {
-        overflow: visible;
-    }
-
-    a:hover {
-        text-decoration: overline;
-    }
-
-    header nav {
-        display: block;
-        justify-content: space-between;
-        width: 100vw;
-        background-color: black;
-        margin-left: -15px;
-        margin-bottom: -15px;
-    }
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+    
+        header {
+            padding: 0;
+        }
+    
+    
+        .navigation li {
+            display: block;
+            flex: 1 1 1 1 100%;
+        }
+    
+        nav ul {
+            overflow: visible;
+        }
+    
+        a:hover {
+            text-decoration: overline;
+        }
+    
+        header nav {
+            display: block;
+            justify-content: space-between;
+            background-color: black;
+            margin-bottom: -15px;
+        }
 
     #menu {
         display: none;

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- metas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="RayVen Shellhart">
+    <meta name="description" content="home page for final Project | RayVen Shellhart">
+    <!-- metas og -->
+    <meta property="og:title" content="History | RayVen Shellhart">
+    <meta property="og:description" content="history page for final Project | RayVen Shellhart">
+    <meta property="og:image" content="image/logo.webp">
+    <meta property="og:url" content="https://rayvenshellhart.github.io/wdd231/project/site-plan.html">
+    <meta property="og:type" content="website">
+    <!-- Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/product.css">
+    <link rel="stylesheet" href="styles/product-large.css">
+    <link rel="icon" href="favicon.ico">
+    <!-- script -->
+    <script src="script/product.js" defer></script>
+    <title>Products | RayVen Shellhart</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.webp" alt="logo">
+        <div class="title">
+            <span class="header-title">Monitors</span>
+            <span class="mini-title">Final project</span>
+        </div>
+        <div class="hamburgerMenu">
+            <a id="menu" aria-label="hamburger" href="#"></a>
+        </div>
+        <nav id="animate-me">
+            <ul class="navigation">
+                <li><a href="history.html">History</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="product.html" class="active">Product</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Product</h1>
+        <ul class="filter" id="filter">
+            <li><a href="#" id="all">All</a></li>
+            <li><a href="#" id="b-400">Below 400</a></li>
+            <li><a href="#" id="a-400">Above 400</a></li>
+            <li><a href="#" id="asc">Ascending Price</a></li>
+            <li><a href="#" id="desc">Descending Price</a></li>
+        </ul>
+        <section id="cards" class="cards"></section>
+    </main> 
+    <footer>
+        <div>
+            <p><strong>Final Project</strong></p>
+            <p>2054 monitor drive</p>
+            <p>Olympia, Washington</p>
+            <p>fakemonitor@gmail.com</p>
+            <p>(222) 555-3333</p>
+        </div>
+        <div class="social">
+            <a href="https://www.youtube.com/"><img src="images/youtube.webp" alt="youtube" loading="lazy" width="200"
+                    height="200"></a>
+            <a href="https://x.com/"><img src="images/twitter.webp" alt="twitter" loading="lazy" width="200"
+                    height="200"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedin.webp" alt="linkedin" loading="lazy"
+                    width="200" height="200"></a>
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p><span id="currentyear"></span> 🐓 RayVen Kenneth Shellhart 🐓 Washington State </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+
+</html>

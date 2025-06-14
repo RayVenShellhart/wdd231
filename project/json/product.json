@@ -1,0 +1,94 @@
+{
+    "monitors": [
+        {
+            "name" : "LG 27GP950-B",
+            "resolution" : "3840 x 2160",
+            "size" : "27 inch",
+            "refresh" : "160hz",
+            "rating" : 4.2,
+            "link" : "https://www.amazon.com/gp/product/B094RWMN8K?th=1&linkCode=sl1&tag=qznce-20&linkId=f8124fa451235679a207dadb02732c52&language=en_US&ref_=as_li_ss_tl",
+            "price": 749.99
+        },
+        {
+            "name" : "Gigabyte M27U",
+            "resolution": "3840 x 2160",
+            "size" : "27 inch",
+            "refresh" : "160hz",
+            "rating": 4.2,
+            "link" : "https://www.amazon.com/gp/product/B0C3Z74ZP5?th=1&linkCode=sl1&tag=qznce-20&linkId=2863cf2b9459a11aa5c9b2995a8da9de&language=en_US&ref_=as_li_ss_tl",
+            "price": 475.49
+        },
+        {
+            "name": "Dell Alienware AW2724DM",
+            "resolution": "2560 x 1440",
+            "size": "27 inch",
+            "refresh": "180 hz",
+            "rating": 4.4,
+            "link": "https://www.amazon.com/gp/product/B0CCW7JLYH?th=1&linkCode=sl1&tag=qznce-20&linkId=1081b87cf6cffe1e40704cc797f49611&language=en_US&ref_=as_li_ss_tl",
+            "price": 249.95
+        },
+        {
+            "name": "AOC Q27G3XMN",
+            "resolution": "2560 x1 400",
+            "size": "27 inch",
+            "refresh": "180 hz",
+            "rating": 4.3,
+            "link": "https://www.amazon.com/gp/product/B0C8ZJKPWC?linkCode=sl1&tag=qznce-20&linkId=cbf155a499e4fe4ead489b4f3c342f50&language=en_US&ref_=as_li_ss_tl&th=1",
+            "price": 299.99
+        },
+        {
+            "name": "Dell G2724D ",
+            "resolution": "2560 x 1440",
+            "size": "27 inch",
+            "refresh": "165 hz",
+            "rating": 4.4,
+            "link": "https://www.amazon.com/gp/product/B0979KQTDD?&linkCode=sl1&tag=qznce-20&linkId=b0fc9c1469d8c6acc0891c8549ef8065&language=en_US&ref_=as_li_ss_tl",
+            "price": 419.45
+        },
+        {
+            "name": "Dell Alienware AW2723DF",
+            "resolution": "2560 x 1400",
+            "size": "27 inch",
+            "refresh": " 280 hz",
+            "rating": 4.4,
+            "link": "https://www.amazon.com/gp/product/B0BCXJ7XXM?th=1&linkCode=sl1&tag=qznce-20&linkId=de526c5e61c6e56cd7b2048a73e3c7fd&language=en_US&ref_=as_li_ss_tl",
+            "price": 826.99
+        },
+        {
+            "name": "Gigabyte AORUS FO27Q3",
+            "resolution": "2560 x 1440",
+            "size": "27 inch",
+            "refresh": "360 hz",
+            "rating": 4.3,
+            "link": "https://www.amazon.com/gp/product/B0D1RL9D39?th=1&linkCode=sl1&tag=qznce-20&linkId=1481c0d0e39ce407d04ef00317cf16d4&language=en_US&ref_=as_li_ss_tl",
+            "price": 649.99
+        },
+        {
+            "name": "LG 27GS95QE-B",
+            "resolution": "2560 x 1400",
+            "size": "27 inch",
+            "refresh": " 240 hz",
+            "rating": 4.3,
+            "link": "https://www.amazon.com/gp/product/B0CSGWXVBN?linkCode=sl1&tag=qznce-20&linkId=f480dc4ba0a6c008e6a3cb91953e5650&language=en_US&ref_=as_li_ss_tl&th=1",
+            "price": 819.17
+        },
+        {
+            "name": "ASUS ROG Swift PG279QM",
+            "resolution": "2560 x 1400",
+            "size": "27 inch",
+            "refresh": "240 hz",
+            "rating": 4.3,
+            "link": "https://www.amazon.com/gp/product/B08LCNWQWL?&linkCode=sl1&tag=qznce-20&linkId=2e6b96270c515e36a908fa1c2ee644a5&language=en_US&ref_=as_li_ss_tl",
+            "price": 529.99
+        },
+        {
+            "name": "ASUS ROG Strix OLED XG27AQDMG",
+            "resolution": "2560 x 1440",
+            "size": "27 inch",
+            "refresh": "240 hz",
+            "rating": 4.4,
+            "link": "https://www.amazon.com/gp/product/B0CZWM44QP?linkCode=sl1&tag=qznce-20&linkId=9bcdd0fa84046a23d10c4e873c4e7c0c&language=en_US&ref_=as_li_ss_tl&th=1",
+            "price": 691.75
+        }
+    ]
+}
