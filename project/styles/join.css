@@ -213,3 +213,7 @@ form {
 main {
     line-height: 45px;
 }
+
+footer a {
+    color: white;
+}

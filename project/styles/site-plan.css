@@ -190,3 +190,7 @@ figure img {
 body {
     background-color: var(--secondary-color);
 }
+
+footer a {
+    color: white;
+}

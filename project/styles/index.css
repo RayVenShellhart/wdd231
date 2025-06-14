@@ -219,3 +219,7 @@ dialog::backdrop {
     display: block;
     justify-items: center;
 }
+
+footer a{
+    color: white;
+}
