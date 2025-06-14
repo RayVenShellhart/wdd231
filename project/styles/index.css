@@ -214,3 +214,8 @@ figure img:hover {
 dialog::backdrop {
     backdrop-filter: grayscale(1);
 }
+
+.content {
+    display: block;
+    justify-items: center;
+}
