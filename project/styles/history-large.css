@@ -11,7 +11,7 @@
 
     .navigation li {
         display: block;
-        flex: 1 1 1 1 100%;
+        flex: 1 1 100%;
     }
 
     body {
