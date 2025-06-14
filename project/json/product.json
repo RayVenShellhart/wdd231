@@ -29,7 +29,7 @@
         },
         {
             "name": "AOC Q27G3XMN",
-            "resolution": "2560 x1 400",
+            "resolution": "2560 x 1440",
             "size": "27 inch",
             "refresh": "180 hz",
             "rating": 4.3,
@@ -47,7 +47,7 @@
         },
         {
             "name": "Dell Alienware AW2723DF",
-            "resolution": "2560 x 1400",
+            "resolution": "2560 x 1440",
             "size": "27 inch",
             "refresh": " 280 hz",
             "rating": 4.4,
@@ -65,7 +65,7 @@
         },
         {
             "name": "LG 27GS95QE-B",
-            "resolution": "2560 x 1400",
+            "resolution": "2560 x 1440",
             "size": "27 inch",
             "refresh": " 240 hz",
             "rating": 4.3,
@@ -74,7 +74,7 @@
         },
         {
             "name": "ASUS ROG Swift PG279QM",
-            "resolution": "2560 x 1400",
+            "resolution": "2560 x 1440",
             "size": "27 inch",
             "refresh": "240 hz",
             "rating": 4.3,
@@ -89,6 +89,47 @@
             "rating": 4.4,
             "link": "https://www.amazon.com/gp/product/B0CZWM44QP?linkCode=sl1&tag=qznce-20&linkId=9bcdd0fa84046a23d10c4e873c4e7c0c&language=en_US&ref_=as_li_ss_tl&th=1",
             "price": 691.75
+        },
+        {
+            "name": "AOC Q27G4XN",
+            "resolution": "2560 x 1440",
+            "size":"27 inch",
+            "refresh":"180hz",
+            "rating":4.3,
+            "link":"https://www.amazon.com/AOC-Q27G4XN-Adaptive-Sync-Adjustable-Zero-Bright-dot/dp/B0CPHW5JQY/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.MUbLrF9j53bk8q8CalGwekLzdDjBtKXQksMxDTwz_lm2kST7Q8v1Eb3mWANFh2ABYBA5cjCUiZ6p6Nku1rrpbtLVirRmKwOqqUHXu4uOHzqL20ufVtIB3zQqhM2sIAVsAOarb8hirapzUnnj4aeQd2K2YUwUAwoevk-uxAEt4hlnjFu7cJRZC-1m_K81xgsliJSLpax1YgtDVG0EtyIM2S6IWruzOxLn1V5gHLj7B88.PSzZb6Xt-mgxEVhAwoo4IGx4tt-7_bGp9UfidcQBjyI&dib_tag=se&keywords=Acer%2BNitro%2BXV275K%2BP3biipruzx&linkCode=sl2&linkId=6c3e95a765e0068c66991d2a22f46846&qid=1749883005&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
+            "price":179.99
+        },
+        {
+            "name":"acer Nitro 1500R curve",
+            "resolution":"2560 x 1080",
+            "size":"29.5 inch",
+            "refresh":"200hz",
+            "link": "https://www.amazon.com/acer-Zero-Frame-FreeSync-Mountable-Xbmiippx/dp/B0D2LT8L75/ref=sr_1_2?crid=3BT7ED0RFGTYK&dib=eyJ2IjoiMSJ9.zZ396IuhAn2Naa0IL1gwYmI9czwYwmJBSl7BlZ5qrKlPqnK6tY5ertWdYoqTOfNsBm9RFNXqn-rwiqwjphD1tOM74Mlo1VGoD_8fcN3bughVRyi6CUlxegzldBJV93cfLOV3iGL_aanX5mTUaxiYq2MlkIdWhAVunVHSk92VZNrm0hqdvQznB5KO5wqywEg2YUAW1rTxvBfHmyN2n3SXfgwzb80_T_oEgO5c8K1jPu0.mlRbyqEn7244E3BHCw67iFrwcrC-TkRiUSZmhXfj5Vw&dib_tag=se&keywords=acer%2Bnitro%2B29.5%2Binch%2B1500r&qid=1749883352&sprefix=acer%2Bnitro%2B29.5%2Binch%2B1500r%2Caps%2C142&sr=8-2&th=1",
+            "price": 179.99
+        },
+        {
+            "name":"Dell G2725D",
+            "resolution" :"2560 x 1440",
+            "size": "27 inch",
+            "refresh":"180hz",
+            "link": "https://www.amazon.com/Dell-G2725D-Gaming-Monitor-Connectivity/dp/B0DGMQ2M1G/ref=asc_df_B0DGMQ2M1G?mcid=52c29da5c486381d98acb95ae4bd1cc8&hvocijid=7519150834071085452-B0DGMQ2M1G-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=7519150834071085452&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033505&hvtargid=pla-2281435179818&th=1",
+            "price": "199.99"
+        },
+        {
+            "name": "LG 32GP750-B",
+            "resolution": "2560 x 1440",
+            "size": "32 inch",
+            "refresh": "165hz",
+            "link": "https://www.amazon.com/LG-32GP750-B-Ultragear-Compatible-Adjustable/dp/B09WXX42ZS/ref=asc_df_B09WXX42ZS?mcid=c2b9a1b898f53b0b846b90b3a3b6f199&hvocijid=13122072434497172828-B09WXX42ZS-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=13122072434497172828&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1027691&hvtargid=pla-2281435176898&th=1",
+            "price": 319.00
+        },
+        {
+            "name" : "Alienware AW2523HF ",
+            "resolution": "1920 x 1080",
+            "size": "24.5inch",
+            "refresh": "360hz",
+            "link" : "https://www.amazon.com/Alienware-AW2523HF-Gaming-Monitor-Adjustability/dp/B0BDPCQ7PG?crid=3HPZXXWCDZAMT&dib=eyJ2IjoiMSJ9.pIU0GjuFB8lIfFIAneCMXiVZABT3hEyHmR27rzKATmlw2YThzTXVB4OqE3yokS64xAOUeuP70Yi2JS5RinCvOv7r5qKRwsZjCCBFlQ3WdoeWXTnZEs-zKKjL_Oa0tg9BTMGtgl-JBpPwU1UcxHwUVZHYkLQYGboPZZzx8vRqmdfMbYfkzzY5UVMIupmRwcimMOE2gbDOSpp5dVoRCMtHVPNMDprQLFipM-gIBDec-FxVDPy3X9N0bfkYI9Bn2_pl0lt_b67Kic-Zx3jUkPMQB1BLUf6HdpYTnxY_YaqmY5s.kDLcmrz1-2G8IKJEZCgN0E2DZU0KmJUmnEaaA87jm1o&dib_tag=se&keywords=AW2523HF&qid=1720214286&s=electronics&sprefix=aw2523hf%2B%2Celectronics%2C128&sr=1-2&th=1&linkCode=ll1&tag=31371-20&linkId=fe8026c7933905d0ac2fb39abd16c3d6&language=en_US&ref_=as_li_ss_tl",
+            "price" : 249.99
         }
     ]
 }
